@@ -43,7 +43,7 @@ export default function SubscribeForm() {
               </div>
               <div>
                 <button className="btn text-gray-100 bg-gray-900 hover:bg-gray-800 dark:text-gray-800 dark:bg-gray-100 dark:hover:bg-white w-full">
-                  Join The Waitlist
+                  Secure Your Spot Now - 50% Off
                 </button>
               </div>
             </div>
@@ -103,9 +103,9 @@ export default function SubscribeForm() {
           <p className="text-sm text-gray-500">
             Join the{" "}
             <span className="text-gray-700 dark:text-gray-200 font-medium">
-              2.000+
+              50,000+
             </span>{" "}
-            members who have already signed up.
+            traders already profiting from our academy.
           </p>
         </div>
       </div>
