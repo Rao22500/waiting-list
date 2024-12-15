@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Contact us - Creative",
-  description: "Page description",
+  title: "Contact Us - Global Trading Academy",
+  description: "Get in touch with Global Trading Academy for questions about our trading education platform, mentorship, and subscription plans.",
 };
 
 import PageHeader from "@/components/page-header";
@@ -12,10 +12,10 @@ export default function Contact() {
         <div className="px-4 sm:px-6">
           <PageHeader
             className="mb-12 md:mb-20"
-            title="Get in touch"
-            description="Fill out the form below to set up a call, or keep reading to get in touch with us for customer support, partnerships, or media enquiries."
+            title="Start Your Success Story"
+            description="Ready to transform your trading? Our expert team is here to guide you through your journey to becoming a successful trader. Get personalized support and answers to all your questions."
           >
-            Contact us
+            24/5 Support
           </PageHeader>
 
           {/* Contact form */}
@@ -145,10 +145,10 @@ export default function Contact() {
               <div className="flex flex-col rounded-lg bg-gradient-to-tr from-white/70 to-white/50 dark:bg-gradient-to-b dark:from-gray-700/50 dark:to-gray-700/40 p-5">
                 <div className="grow mb-3">
                   <div className="font-inter-tight font-semibold text-gray-800 dark:text-gray-200 mb-1">
-                    Email
+                    Expert Support
                   </div>
                   <p className="text-sm text-gray-600 dark:text-gray-500">
-                    Email us your queries and we'll get back to you ASAP.
+                    Get answers from professional traders who manage $1M+ portfolios.
                   </p>
                 </div>
                 <div className="flex items-center space-x-2.5">
@@ -161,7 +161,7 @@ export default function Contact() {
                     <path d="M8 0a8 8 0 1 0 3.2 15.335l.916-.4-.8-1.833-.916.4A6 6 0 1 1 14 8v1a1 1 0 1 1-2 0V8a4.033 4.033 0 1 0-1.286 2.92A2.987 2.987 0 0 0 16 9V8a8.009 8.009 0 0 0-8-8Zm0 10a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z" />
                   </svg>
                   <div className="text-sm text-gray-800 dark:text-gray-200">
-                    hello@cruip.com
+                    support@globaltradingacademy.com
                   </div>
                 </div>
               </div>
@@ -169,10 +169,10 @@ export default function Contact() {
               <div className="flex flex-col rounded-lg bg-gradient-to-tr from-white/70 to-white/50 dark:bg-gradient-to-b dark:from-gray-700/50 dark:to-gray-700/40 p-5">
                 <div className="grow mb-3">
                   <div className="font-inter-tight font-semibold text-gray-800 dark:text-gray-200 mb-1">
-                    Phone
+                    Always Available
                   </div>
                   <p className="text-sm text-gray-600 dark:text-gray-500">
-                    Would you like to have a chat? Feel free to give us a call.
+                    Access support during all major market hours for real-time assistance.
                   </p>
                 </div>
                 <div className="flex items-center space-x-2.5">
@@ -185,7 +185,7 @@ export default function Contact() {
                     <path d="M10 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2ZM2 13V3h8v10H2Z" />
                   </svg>
                   <div className="text-sm text-gray-800 dark:text-gray-200">
-                    +447359510000
+                    24/5 Market Support
                   </div>
                 </div>
               </div>
@@ -193,10 +193,10 @@ export default function Contact() {
               <div className="flex flex-col rounded-lg bg-gradient-to-tr from-white/70 to-white/50 dark:bg-gradient-to-b dark:from-gray-700/50 dark:to-gray-700/40 p-5">
                 <div className="grow mb-3">
                   <div className="font-inter-tight font-semibold text-gray-800 dark:text-gray-200 mb-1">
-                    Address
+                    Global Community
                   </div>
                   <p className="text-sm text-gray-600 dark:text-gray-500">
-                    Prefer to visit? We're located in London, United Kingdom.
+                    Join 50,000+ traders from 50+ countries mastering the markets together.
                   </p>
                 </div>
                 <div className="flex items-center space-x-2.5">
@@ -209,7 +209,7 @@ export default function Contact() {
                     <path d="M5.591 15.069c.404.358.684.606.709.631.4.4 1 .4 1.4.1.05-.05 1.075-.975 2.1-1.9 1.025-.925 2.05-1.85 2.1-1.9 1.4-1.3 2.1-3.1 2.1-5 0-3.9-3.1-7-7-7S0 3.1 0 7c0 1.9.7 3.7 2.1 4.9 0 .075 2.293 2.107 3.491 3.169ZM7 13.7l-3.4-3C2.6 9.7 2 8.4 2 7c0-2.8 2.2-4.9 5-4.9s5 2.2 5 5c0 1.4-.6 2.6-1.6 3.6l-3.4 3ZM9 7a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z" />
                   </svg>
                   <div className="text-sm text-gray-800 dark:text-gray-200">
-                    London, SW1Y 4AH, UK
+                    Available Worldwide
                   </div>
                 </div>
               </div>
