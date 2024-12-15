@@ -7,8 +7,8 @@ Note: This code includes an example of how to fetch data from an external JSON f
 import getAllPosts from "@/lib/getAllPosts";
 
 export const metadata = {
-  title: "Updates - Creative",
-  description: "Page description",
+  title: "Updates - Global Trading Academy",
+  description: "Latest updates, feature releases, and educational content from Global Trading Academy.",
 };
 
 import PageHeader from "@/components/page-header";
@@ -25,10 +25,10 @@ export default async function Updates() {
         <div className="pt-32 pb-12 md:pt-44 md:pb-20">
           <div className="px-4 sm:px-6">
             <PageHeader
-              title="News & Updates"
-              description="Rank and score updates and feature requests so you know you're working on the most impactful things."
+              title="Your Trading Journey Starts Here"
+              description="Get exclusive early access to our revolutionary trading platform, expert insights, and market analysis. Join successful traders already benefiting from our academy."
             >
-              What's New
+              Launch Updates
             </PageHeader>
           </div>
         </div>
