@@ -6,9 +6,9 @@ import PostsSidebar from "./posts-sidebar";
 import PostsList from "./posts-list";
 
 export default function Posts({ posts }: { posts: Post[] }) {
-  const categories = ["News", "Admin", "General", "Improvements", "Legal"];
+  const categories = ["Platform", "Education", "Markets", "Community", "Tools"];
 
-  const [selectedCategory, setSelectedCategory] = useState<string>("News");
+  const [selectedCategory, setSelectedCategory] = useState<string>("Platform");
 
   return (
     <section>
