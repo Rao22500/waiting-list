@@ -15,7 +15,7 @@ export default function PostsSidebar({
 
   const getIcon = (category: string) => {
     switch (category) {
-      case "News":
+      case "Platform":
         return (
           <svg
             className="shrink-0 fill-indigo-500/80"
@@ -26,7 +26,7 @@ export default function PostsSidebar({
             <path d="M15 6h-4a1 1 0 1 1 0-2h4a1 1 0 1 1 0 2ZM15 2h-4a1 1 0 1 1 0-2h4a1 1 0 1 1 0 2ZM15 10h-4a1 1 0 1 1 0-2h4a1 1 0 1 1 0 2ZM15 14H1a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2ZM1.914 9.406l.626-1.409.015.003h4l.015-.003.626 1.409a1 1 0 1 0 1.828-.813L5.47.594a1.001 1.001 0 0 0-1.828 0l-3.556 8a1 1 0 1 0 1.828.812Zm2.642-5.945 1.128 2.538H3.428l1.128-2.538Z" />
           </svg>
         );
-      case "Admin":
+      case "Education":
         return (
           <svg
             className="shrink-0 fill-indigo-500/80"
@@ -37,7 +37,7 @@ export default function PostsSidebar({
             <path d="M15.7 5.7 10.3.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l.6.6L2.7 6l-1-1c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l1.5 1.5 2.4 2.4L.6 14 2 15.4l3.7-3.7 4 4c.5.5 1.2.2 1.4 0 .4-.4.4-1 0-1.4l-1-1 3.7-6.7.6.6c.6.6 1.2.2 1.4 0 .3-.4.3-1.1-.1-1.5Zm-7.2 6.1L4.2 7.5l6.7-3.7 1.3 1.3-3.7 6.7Z" />
           </svg>
         );
-      case "General":
+      case "Markets":
         return (
           <svg
             className="shrink-0 fill-indigo-500/80"
@@ -48,7 +48,7 @@ export default function PostsSidebar({
             <path d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0ZM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0ZM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0Z" />
           </svg>
         );
-      case "Improvements":
+      case "Community":
         return (
           <svg
             className="shrink-0 fill-indigo-500/80"
@@ -59,7 +59,7 @@ export default function PostsSidebar({
             <path d="M11.707.293a1 1 0 0 0-1.414 0l-9 9a1 1 0 0 0-.273.507l-1 5a1 1 0 0 0 1.18 1.18l5-1a1 1 0 0 0 .51-.273l9-9a1 1 0 0 0 0-1.414l-4.003-4Zm-6.2 12.786-3.233.647.647-3.233L8 5.414 10.586 8l-5.08 5.079ZM12 6.586 9.414 4 11 2.414 13.586 5 12 6.586Z" />
           </svg>
         );
-      case "Legal":
+      case "Tools":
         return (
           <svg
             className="shrink-0 fill-indigo-500/80"
